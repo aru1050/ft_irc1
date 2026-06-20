@@ -5,24 +5,24 @@
 
 class Client
 {
-private:
-    int         _fd;
+    private:
+        int         _fd;
 
-    std::string _nickname;
-    std::string _username;
-    std::string _realname;
-    std::string _password;
-    std::string _buffer;
+        std::string _nickname;
+        std::string _username;
+        std::string _realname;
+        std::string _password;
+        std::string _buffer;
 
-    bool        _hasPass;
-    bool        _hasNick;
-    bool        _hasUser;
-    bool        _isRegistered;
+        bool        _hasPass;
+        bool        _hasNick;
+        bool        _hasUser;
+        bool        _isRegistered;
 
-public:
-    Client(); // Constructeur par défaut
-    ~Client(); // Destructeur
-    Client(int fd); // Constructeur avec file descriptor
+    public:
+        Client(); // Constructeur par défaut
+        ~Client(); // Destructeur
+        Client(int fd); // Constructeur avec file descriptor
 
     // Retourne le file descriptor du client
     int getFd() const;
