@@ -21,7 +21,7 @@ SRCS = \
 	srcs/channel/Invite.cpp \
 	srcs/channel/Kick.cpp \
 	srcs/channel/Topic.cpp \
-	srcs/commands/command_easy.cpp \
+	srcs/commands/Command.cpp \
 	srcs/commands/Join.cpp \
 	srcs/commands/Privmsg.cpp \
 	srcs/commands/Mode.cpp \
