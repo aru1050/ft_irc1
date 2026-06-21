@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Client.hpp                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: athamilc <athamilc@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/21 16:26:40 by athamilc          #+#    #+#             */
+/*   Updated: 2026/06/21 16:26:41 by athamilc         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef CLIENT_HPP
 #define CLIENT_HPP
 
@@ -95,6 +107,7 @@ class Client
     // Vérifie si PASS, NICK et USER ont été reçus
     // et si le client peut être enregistré
     bool isReadyToRegister() const;
+
 };
 
 #endif
